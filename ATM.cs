@@ -15,22 +15,22 @@ namespace ATM
         public ATM()
         {
             InitializeComponent();
-            many.Add(50, 0);
-            many.Add(100, 0);
-            many.Add(200, 0);
-            many.Add(500, 0);
-            many.Add(1000, 0);
-            many.Add(2000, 0);
-            many.Add(5000, 0);
+            money.Add(50, 0);
+            money.Add(100, 0);
+            money.Add(200, 0);
+            money.Add(500, 0);
+            money.Add(1000, 0);
+            money.Add(2000, 0);
+            money.Add(5000, 0);
         }
 
-        private Dictionary<int, int> many = new Dictionary<int, int>(7);
+        private Dictionary<int, int> money = new Dictionary<int, int>(7);
         
 
         public void SetMoney(int value, int amount)
         {
-            int amountBanknoteATM = many[value];
-            many.Add(value, amountBanknoteATM + amount);
+            int amountBanknoteATM = money[value];
+            money.Add(value, amountBanknoteATM + amount);
         }
 
         public int GetMoney(int sum)
