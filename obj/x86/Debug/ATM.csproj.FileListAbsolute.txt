@@ -1,0 +1,9 @@
+C:\Users\Andrey\source\repos\ATM\bin\Debug\WindowsApplication.exe.config
+C:\Users\Andrey\source\repos\ATM\bin\Debug\WindowsApplication.exe
+C:\Users\Andrey\source\repos\ATM\bin\Debug\WindowsApplication.pdb
+C:\Users\Andrey\source\repos\ATM\obj\x86\Debug\ATM.csprojAssemblyReference.cache
+C:\Users\Andrey\source\repos\ATM\obj\x86\Debug\ATM.Properties.Resources.resources
+C:\Users\Andrey\source\repos\ATM\obj\x86\Debug\ATM.csproj.GenerateResource.cache
+C:\Users\Andrey\source\repos\ATM\obj\x86\Debug\ATM.csproj.CoreCompileInputs.cache
+C:\Users\Andrey\source\repos\ATM\obj\x86\Debug\WindowsApplication.exe
+C:\Users\Andrey\source\repos\ATM\obj\x86\Debug\WindowsApplication.pdb
