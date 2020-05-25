@@ -17,3 +17,4 @@ C:\Users\andkv\source\repos\ATM\ATM\obj\x86\Debug\ATM.csproj.CoreCompileInputs.c
 C:\Users\andkv\source\repos\ATM\ATM\obj\x86\Debug\WindowsApplication.exe
 C:\Users\andkv\source\repos\ATM\ATM\obj\x86\Debug\WindowsApplication.pdb
 C:\Users\andkv\source\repos\ATM\ATM\obj\x86\Debug\ATM.ATM.resources
+C:\Users\Andrey\source\repos\ATM\obj\x86\Debug\ATM.ATM.resources
