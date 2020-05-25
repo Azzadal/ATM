@@ -7,3 +7,13 @@ C:\Users\Andrey\source\repos\ATM\obj\x86\Debug\ATM.csproj.GenerateResource.cache
 C:\Users\Andrey\source\repos\ATM\obj\x86\Debug\ATM.csproj.CoreCompileInputs.cache
 C:\Users\Andrey\source\repos\ATM\obj\x86\Debug\WindowsApplication.exe
 C:\Users\Andrey\source\repos\ATM\obj\x86\Debug\WindowsApplication.pdb
+C:\Users\andkv\source\repos\ATM\ATM\bin\Debug\WindowsApplication.exe.config
+C:\Users\andkv\source\repos\ATM\ATM\bin\Debug\WindowsApplication.exe
+C:\Users\andkv\source\repos\ATM\ATM\bin\Debug\WindowsApplication.pdb
+C:\Users\andkv\source\repos\ATM\ATM\obj\x86\Debug\ATM.csprojAssemblyReference.cache
+C:\Users\andkv\source\repos\ATM\ATM\obj\x86\Debug\ATM.Properties.Resources.resources
+C:\Users\andkv\source\repos\ATM\ATM\obj\x86\Debug\ATM.csproj.GenerateResource.cache
+C:\Users\andkv\source\repos\ATM\ATM\obj\x86\Debug\ATM.csproj.CoreCompileInputs.cache
+C:\Users\andkv\source\repos\ATM\ATM\obj\x86\Debug\WindowsApplication.exe
+C:\Users\andkv\source\repos\ATM\ATM\obj\x86\Debug\WindowsApplication.pdb
+C:\Users\andkv\source\repos\ATM\ATM\obj\x86\Debug\ATM.ATM.resources
