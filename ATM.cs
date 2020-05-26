@@ -46,59 +46,44 @@ namespace ATM
                 return y.CompareTo(x);
             });
 
-            float amBan;
-
-            int amBan1;
-
             Dictionary<int, int> banknotesForIssue = new Dictionary<int, int>();
 
-            int t = money.Keys.Last();
-
-            int lastElemList = temp.Last();
-
             int i = 0;
-
-            int perc = 80;
+            
+            foreach(var b in money.Keys)
+            {
+                banknotesForIssue.Add(b, 0);
+            }
 
             try
             {
-                foreach (var el in money.Keys)
+                while (sum!=0)
                 {
-                    if (el == temp[i])
+                    foreach (var el in money.Keys)
                     {
-
-                        amBan = sum / el / 100 * perc;
-
-                        amBan1 = (int)amBan;
-
-                        if (el == lastElemList && sum > 0)
+                        if (el == temp[i])
                         {
-                            amBan = sum / el;
+                            if (sum >= temp[i])
+                            {
+                                banknotesForIssue[el] = banknotesForIssue[el] + 1;
+                            }
+                            else
+                            {
+                                i++;
+                                continue;  
+                            }
+                            sum -= el;
+                            if (i < temp.Count-1) i++;
 
-                            amBan1 = (int)amBan;
+                            continue;
+                        }   
+                        else
+                        {
+                            continue;
                         }
-
-                        sum = sum - amBan1 * el;
-
-                        if (amBan > 0) banknotesForIssue.Add(el, amBan1);
-                        //if (sum > 0)
-                        //{
-                        //    MessageBox.Show("Выберите более мелкие купюры");
-                        //    return;
-                        //}
-
-                        Console.WriteLine();
-                        Console.Write("номинал " + el);
-                        Console.Write(" Кол-во банкнот " + (int)amBan);
-                        Console.WriteLine(" остаток " + sum);
-                    }
-                    else
-                    {
-                        continue;
                     }
 
-                    i++;
-
+                    i = 0;        
                 }
             }
             catch
