@@ -90,10 +90,12 @@ namespace ATM
             {
 
             }
-
+            output.Text = "";
 
             foreach (var le in banknotesForIssue)
             {
+                output.Text += le.Key + " - " + le.Value;
+                output.Text += Environment.NewLine;
                 Console.WriteLine("ключ " + le.Key + " значение " + le.Value);
             }
         }

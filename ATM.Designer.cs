@@ -37,6 +37,7 @@
             this.check200 = new System.Windows.Forms.CheckBox();
             this.check100 = new System.Windows.Forms.CheckBox();
             this.check50 = new System.Windows.Forms.CheckBox();
+            this.output = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // input
@@ -133,11 +134,20 @@
             this.check50.UseVisualStyleBackColor = true;
             this.check50.CheckedChanged += new System.EventHandler(this.check50_CheckedChanged);
             // 
+            // output
+            // 
+            this.output.Location = new System.Drawing.Point(467, 88);
+            this.output.Multiline = true;
+            this.output.Name = "output";
+            this.output.Size = new System.Drawing.Size(188, 289);
+            this.output.TabIndex = 9;
+            // 
             // ATM
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.output);
             this.Controls.Add(this.check50);
             this.Controls.Add(this.check100);
             this.Controls.Add(this.check200);
@@ -165,6 +175,7 @@
         private System.Windows.Forms.CheckBox check200;
         private System.Windows.Forms.CheckBox check100;
         private System.Windows.Forms.CheckBox check50;
+        private System.Windows.Forms.TextBox output;
     }
 }
 
